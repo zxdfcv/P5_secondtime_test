@@ -1,0 +1,69 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/10791/P5_secondtime_test/test_isim_beh.exe" -prj "C:/Users/10791/P5_secondtime_test/test_beh.prj" "work.test" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/MUX.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/MemOp.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/WriteBackReg.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/PCcalculate.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/pc.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/MemoryReg.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/im.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/grf.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/extender.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/ExecuteReg.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/dm.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/DecodeReg.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/controller.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/Comparator.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/alu.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/adder.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/datpath1.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/mips.v" into library work
+Analyzing Verilog file "C:/Users/10791/P5_secondtime_test/P5_code/test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:/Users/10791/P5_secondtime_test/P5_code/datpath1.v" Line 199: Port JUMP is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/10791/P5_secondtime_test/P5_code/datpath1.v" Line 268: Port RD is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/10791/P5_secondtime_test/P5_code/datpath1.v" Line 309: Port zero is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/10791/P5_secondtime_test/P5_code/datpath1.v" Line 335: Port RD is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:/Users/10791/P5_secondtime_test/P5_code/datpath1.v" Line 387: Port ALUSrc is not connected to this instance
+Completed static elaboration
+Compiling module mux4
+Compiling module mux2
+Compiling module PCcalculate
+Compiling module pc
+Compiling module adder
+Compiling module im
+Compiling module DecodeReg
+Compiling module grf
+Compiling module controller
+Compiling module bpnal
+Compiling module Comparator
+Compiling module extender
+Compiling module ExecuteReg
+Compiling module swc
+Compiling module alu
+Compiling module MemoryReg
+Compiling module lbgen
+Compiling module lbugen
+Compiling module lhgen
+Compiling module lhugen
+Compiling module sbgen
+Compiling module shgen
+Compiling module mux16
+Compiling module dm
+Compiling module WriteBackReg
+Compiling module Hcontroller
+Compiling module datapath
+Compiling module mips
+Compiling module test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 27 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\test_isim_beh.exe.sim\libPortability.dll".
+Compiled 30 Verilog Units
+Built simulation executable C:/Users/10791/P5_secondtime_test/test_isim_beh.exe
+Fuse Memory Usage: 30860 KB
+Fuse CPU Usage: 546 ms
